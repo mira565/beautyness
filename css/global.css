@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, **::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  color: #555555;
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", sans-serif;
+  color: #141414;
+  font-weight: 400;
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 15px;
+  color: #5C8692;
+}
+
+p {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555555;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #141414;
+  font-size: 17px;
+}
+a:focus, a:active {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  display: inline-block;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.large-container {
+  max-width: 1380px;
+  margin: 0 auto;
+}
