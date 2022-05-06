@@ -162,3 +162,38 @@ position: relative;
     }
 
 }
+
+.benefits {
+    padding: 105px 0 120px;
+    background-color:$light-blue ;
+    &-wrapper {
+        display: flex;
+        gap: 77px;
+    }
+    &-info {
+        max-width: 595px;
+    
+        &_title {
+            margin-bottom: 14px;
+            line-height: 1.3;
+             letter-spacing: 0.45px;
+        }
+
+        &_text {
+            margin-bottom: 60px;
+        }
+    }
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+    }
+    &-item {
+        text-align: center;
+        background-color: #FFFFFF;
+        border: 2px solid #1E2C30 ;
+        padding: 22px 52px 23px;
+
+    }
+    
+}

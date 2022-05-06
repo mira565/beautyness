@@ -38,6 +38,7 @@ h6 {
   font-family: "Manrope", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  margin-bottom: 4px;
 }
 
 p {
@@ -278,4 +279,41 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.benefits {
+  padding: 105px 0 120px;
+  background-color: #EBF3F5;
+}
+.benefits-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 77px;
+}
+.benefits-info {
+  max-width: 595px;
+}
+.benefits-info_title {
+  margin-bottom: 14px;
+  line-height: 1.3;
+  letter-spacing: 0.45px;
+}
+.benefits-info_text {
+  margin-bottom: 60px;
+}
+.benefits-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 12px;
+}
+.benefits-item {
+  text-align: center;
+  background-color: #FFFFFF;
+  border: 2px solid #1E2C30;
+  padding: 22px 52px 23px;
 }
