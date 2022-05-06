@@ -296,6 +296,9 @@ button {
   display: -ms-flexbox;
   display: flex;
   gap: 77px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .benefits-info {
   max-width: 595px;
@@ -317,4 +320,16 @@ button {
   background-color: #FFFFFF;
   border: 2px solid #1E2C30;
   padding: 20px 50px 21px;
+}
+.benefits-pic {
+  position: relative;
+  padding: 35px 35px 0 0;
+}
+.benefits-img {
+  position: absolute;
+  bottom: 35px;
+  left: 35px;
+}
+.benefits-main {
+  position: relative;
 }
