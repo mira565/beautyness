@@ -215,3 +215,79 @@ position: relative;
 
     
 }
+.services {
+
+
+    background-color: #FFFFFF;
+    padding: 100px;
+    &-subtitle {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4px;
+        
+
+    }
+
+    &-title {
+        display: flex;
+        justify-content: center;
+        padding: 0 310px 0;
+        margin-bottom: 70px;
+        
+    }
+
+    &-option_first{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &-option_list {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 3px $black;
+        margin-bottom: 7px;
+        &_prices {
+            display: flex;
+            gap: 10px;
+            
+            
+            
+        }
+    }
+
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        &_tag {
+            font-size: 22px;
+            font-family: 'Playfair Display', sans-serif;
+            color: $black;
+            font-weight: 400;
+            letter-spacing: 0.45px;
+        }
+        &_text {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        &_description {
+            position: relative;
+        }
+        &_description::after{
+
+            position: absolute; 
+            width: 540px;
+            content:'';
+            top: 100%;
+            left: 0px;
+            border-bottom:solid 1px black;
+            }
+
+        }
+
+    }
+
+    
+
