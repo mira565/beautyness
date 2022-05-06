@@ -171,18 +171,18 @@ position: relative;
         gap: 77px;
     }
     &-info {
-        max-width: 595px;
-    
+        max-width: 595px; 
         &_title {
             margin-bottom: 14px;
-            line-height: 1.3;
-             letter-spacing: 0.45px;
+            font-size: 22px;
         }
 
         &_text {
             margin-bottom: 60px;
         }
     }
+
+    
     &-items {
         display: flex;
         justify-content: space-between;
@@ -195,5 +195,6 @@ position: relative;
         padding: 20px 50px 21px;
 
     }
+
     
 }
