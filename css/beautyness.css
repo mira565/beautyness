@@ -28,7 +28,14 @@ h6 {
   font-family: "Playfair Display", sans-serif;
   color: #141414;
   font-weight: 400;
+  font-size: 45px;
   letter-spacing: 0.45px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.264px;
 }
 
 .subtitle {
@@ -295,7 +302,6 @@ button {
 }
 .benefits-info_title {
   margin-bottom: 14px;
-  font-size: 22px;
 }
 .benefits-info_text {
   margin-bottom: 60px;
@@ -304,9 +310,6 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 12px;
 }
 .benefits-item {

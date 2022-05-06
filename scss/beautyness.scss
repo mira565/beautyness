@@ -174,7 +174,6 @@ position: relative;
         max-width: 595px; 
         &_title {
             margin-bottom: 14px;
-            font-size: 22px;
         }
 
         &_text {
@@ -185,7 +184,6 @@ position: relative;
     
     &-items {
         display: flex;
-        justify-content: space-between;
         gap: 12px;
     }
     &-item {
