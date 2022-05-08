@@ -236,26 +236,35 @@ position: relative;
         
     }
 
-    &-option_first{
-        display: flex;
-        justify-content: space-between;
-        
+    &_pic {
+        width: 600px;
+        height: 600px;
     }
 
-    &-option_list {
+    &-option {
+        &_first {
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;     
+    }  
+
+        &_list {
         display: flex;
         justify-content: space-between;
         border-bottom: solid 3px $black;
         margin-bottom: 7px;
-        gap: 290px;
+        // gap: 281px;
         &_prices {
             display: flex;
-            gap: 10px;
-            
-            
+            // gap: 10px;
             
         }
     }
+
+        &_btn {
+            margin-top: 22px;
+        }
+}
 
     &-list {
         display: flex;
@@ -275,20 +284,33 @@ position: relative;
 
         &_description {
             position: relative;
+            margin-bottom: 20px;
+           
             
         }
-        &_description::after{
+        &_description::after{  
+            display: block;         
             position: absolute; 
-            width: 530px;
-            content:'';
-            top: 100%;
+            width: 512px;
+            content:"";
+            top: 140%;
             left: 0px;
-            border-bottom:solid 1px black;
+            border-bottom: 1px solid $black;
+                  
         
            }
 
+        
+
         }
 
+ }
+
+ .box {
+     width: 540px;
+     height: 457px;
+     padding: 60px 0 133px 0;
+     position: relative;
  }
 
 

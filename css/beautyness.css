@@ -357,6 +357,10 @@ button {
   padding: 0 310px 0;
   margin-bottom: 70px;
 }
+.services_pic {
+  width: 600px;
+  height: 600px;
+}
 .services-option_first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,6 +368,7 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  gap: 60px;
 }
 .services-option_list {
   display: -webkit-box;
@@ -374,13 +379,14 @@ button {
           justify-content: space-between;
   border-bottom: solid 3px #141414;
   margin-bottom: 7px;
-  gap: 290px;
 }
 .services-option_list_prices {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
+}
+.services-option_btn {
+  margin-top: 22px;
 }
 .services-list {
   display: -webkit-box;
@@ -404,12 +410,21 @@ button {
 }
 .services-list_description {
   position: relative;
+  margin-bottom: 20px;
 }
 .services-list_description::after {
+  display: block;
   position: absolute;
-  width: 530px;
+  width: 512px;
   content: "";
-  top: 100%;
+  top: 140%;
   left: 0px;
-  border-bottom: solid 1px black;
+  border-bottom: 1px solid #141414;
+}
+
+.box {
+  width: 540px;
+  height: 457px;
+  padding: 60px 0 133px 0;
+  position: relative;
 }
