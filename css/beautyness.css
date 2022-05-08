@@ -374,6 +374,7 @@ button {
           justify-content: space-between;
   border-bottom: solid 3px #141414;
   margin-bottom: 7px;
+  gap: 290px;
 }
 .services-option_list_prices {
   display: -webkit-box;
@@ -406,7 +407,7 @@ button {
 }
 .services-list_description::after {
   position: absolute;
-  width: 540px;
+  width: 530px;
   content: "";
   top: 100%;
   left: 0px;

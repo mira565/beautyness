@@ -247,6 +247,7 @@ position: relative;
         justify-content: space-between;
         border-bottom: solid 3px $black;
         margin-bottom: 7px;
+        gap: 290px;
         &_prices {
             display: flex;
             gap: 10px;
@@ -274,20 +275,22 @@ position: relative;
 
         &_description {
             position: relative;
+            
         }
         &_description::after{
-
             position: absolute; 
-            width: 540px;
+            width: 530px;
             content:'';
             top: 100%;
             left: 0px;
             border-bottom:solid 1px black;
-            }
+        
+           }
 
         }
 
-    }
+ }
+
 
     
 
