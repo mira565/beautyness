@@ -357,10 +357,6 @@ button {
   padding: 0 310px 0;
   margin-bottom: 70px;
 }
-.services_pic {
-  width: 600px;
-  height: 600px;
-}
 .services-option_first {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -369,6 +365,7 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 60px;
+  position: relative;
 }
 .services-option_list {
   display: -webkit-box;
@@ -398,11 +395,11 @@ button {
   gap: 10px;
 }
 .services-list_tag {
-  font-size: 22px;
+  font-size: 21px;
   font-family: "Playfair Display", sans-serif;
   color: #141414;
   font-weight: 400;
-  letter-spacing: 0.45px;
+  line-height: 1.57;
 }
 .services-list_text {
   font-size: 18px;
@@ -415,16 +412,33 @@ button {
 .services-list_description::after {
   display: block;
   position: absolute;
-  width: 512px;
+  width: 540px;
   content: "";
   top: 140%;
   left: 0px;
   border-bottom: 1px solid #141414;
+}
+.services-square {
+  position: absolute;
+  z-index: 1;
+  top: 560px;
+  left: 600px;
+}
+.services .first {
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 510px;
 }
 
 .box {
   width: 540px;
   height: 457px;
   padding: 60px 0 133px 0;
-  position: relative;
+}
+
+.box_2 {
+  width: 540px;
+  height: 457px;
+  margin-top: 140px;
 }

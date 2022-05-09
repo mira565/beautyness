@@ -236,16 +236,14 @@ position: relative;
         
     }
 
-    &_pic {
-        width: 600px;
-        height: 600px;
-    }
 
     &-option {
         &_first {
         display: flex;
         justify-content: space-between;
-        gap: 60px;     
+        gap: 60px; 
+        position: relative;
+           
     }  
 
         &_list {
@@ -264,22 +262,28 @@ position: relative;
         &_btn {
             margin-top: 22px;
         }
+
+        
 }
+
+
 
     &-list {
         display: flex;
         justify-content: space-between;
         gap: 10px;
         &_tag {
-            font-size: 22px;
+            font-size: 21px;
             font-family: 'Playfair Display', sans-serif;
             color: $black;
             font-weight: 400;
-            letter-spacing: 0.45px;
+            // letter-spacing: 0.45px;
+            line-height: 1.57;
         }
         &_text {
             font-size: 18px;
             line-height: 1.5;
+    
         }
 
         &_description {
@@ -291,7 +295,7 @@ position: relative;
         &_description::after{  
             display: block;         
             position: absolute; 
-            width: 512px;
+            width: 540px;
             content:"";
             top: 140%;
             left: 0px;
@@ -304,15 +308,35 @@ position: relative;
 
         }
 
+        &-square {
+            position: absolute;
+            z-index: 1; 
+            top: 560px;
+            left: 600px;
+        } 
+
+        .first {
+            position: absolute;
+            z-index: 1; 
+            top: 0px;
+            left: 510px;
+        }
+
+
  }
 
  .box {
      width: 540px;
      height: 457px;
      padding: 60px 0 133px 0;
-     position: relative;
  }
 
+ .box_2 {
+    width: 540px;
+    height: 457px;
+    margin-top: 140px;
+}
 
-    
 
+
+ 
