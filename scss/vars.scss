@@ -4,5 +4,35 @@ $grey: #555555;
 $black: #141414;
 $blue:#5C8692;
 $light-blue:#EBF3F5;
+$light-black: #1E2C30;
+$light-grey:#E5E5E5;
+$white:#FFFFFF;
+$block_md:991px;
+$block_sm:768px;
 
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin md-block() {
+    @media screen and  (max-width:$block_md) {
+        @content;
+    }
+}
+
+@mixin sm-block() {
+    @media screen and  (max-width:$block_sm) {
+        @content;
+    }
+}
+    
 
